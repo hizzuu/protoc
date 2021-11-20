@@ -21,6 +21,7 @@ docker run --rm --name protoc -v $(PWD)/gen/pb:/pb -v $(SCHEMA_PATH)/proto:/sche
   -I/schema \
   -I/go/pkg/mod/github.com/envoyproxy/protoc-gen-validate@v0.6.2 \
   --go_out=plugins=grpc:/pb \
+  --validate_out="lang=go:/pb" \
   user.proto
 ```
 
