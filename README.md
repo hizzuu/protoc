@@ -1,6 +1,5 @@
 # Protoc docker image for Go
-This Docker image is currently in alpha. The API should be considered unstable and likely to change
-<br>This Docker image contains [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go), [protoc-gen-validate](https://github.com/envoyproxy/protoc-gen-validate), and [protoc-gen-doc](github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc)
+This Docker image contains [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go), [protoc-gen-validate](https://github.com/envoyproxy/protoc-gen-validate), and [protoc-gen-doc](github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc)
 <br>
 Please refer to the relevant project for the usage of each project.
 
