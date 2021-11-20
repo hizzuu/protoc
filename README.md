@@ -40,4 +40,4 @@ docker run --rm -v ${PWD}:/proto hizzuu/protoc \
 1. Clone this repository
 2. Install dependencies using `Docker build .`
 
-[Docker hub](https://hub.docker.com/repository/docker/hizzuu/protoc)
+[Docker Hub](https://hub.docker.com/repository/docker/hizzuu/protoc)
