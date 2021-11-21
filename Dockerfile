@@ -17,6 +17,7 @@ FROM alpine
 WORKDIR /proto
 
 RUN apk add --no-cache protobuf-dev
+
 COPY --from=go-builder /go/bin /usr/local/bin
 COPY --from=go-builder /go/pkg/mod/github.com/envoyproxy/protoc-gen-validate@v0.6.2/validate/validate.proto /go/pkg/mod/github.com/envoyproxy/protoc-gen-validate@v0.6.2/validate/validate.proto
 

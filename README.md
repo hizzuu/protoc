@@ -1,4 +1,4 @@
-# Protoc docker image for Go
+# Docker Image for using Protoc configured in Go 
 This Docker image contains [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go), [protoc-gen-validate](https://github.com/envoyproxy/protoc-gen-validate), and [protoc-gen-doc](github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc)
 <br>
 Please refer to the relevant project for the usage of each project.
@@ -41,4 +41,4 @@ docker run --rm -v ${PWD}:/proto hizzuu/protoc \
 1. Clone this repository
 2. Install dependencies using `Docker build .`
 
-[Docker Hub](https://hub.docker.com/repository/docker/hizzuu/protoc)
+[Docker Hub](https://hub.docker.com/repository/docker/hizzuu/protoc)  
